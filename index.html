@@ -5,26 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сучасна пекарня</title>
+    <style>
+        h1 {
+            background-color: rgb(78, 53, 169);
+        }
+    </style>
+    <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
     <header>
         <nav>
             <a href="#"><img src="./imagens/logo.svg" alt="Логотип пекарні"></a>
             <ul>
-                <li><a href="#">Франшиза</a></li>
-                <li><a href="#">Наші традиції</a></li>
-                <li><a href="#">Формати</a></li>
-                <li><a href="#">Контакти</a></li>
+                <li><a class="header-link" href="#traditions-section">Наші традиції</a></li>
+                <li><a class="header-link" href="#chefs-section">Шеф-кухар</a></li>
+                <li><a class="header-link" href="#formats-section">Формати</a></li>
+                <li><a class="header-link" href="#contact-section">Контакти</a></li>
             </ul>
         </nav>  
-        <button type="button">Замовити дзвінок</button>
+        <button class="button" type="button">Замовити зараз</button>
         </header>
+     
     <main>
-        <section> 
-            <h1>Сучасна пекарня</h1>
+        <section>
+            <h1 class="hero-title"><span class="accent">Сучасна</span>пекарня</h1>
         </section>
-        <section> 
-            <ul>
+        <section id="traditions-section"> 
+            <ul class="advantagens-list">
                 <li>Великий попит на ринку</li>
                 <li>Доступні ціни</li>
                 <li>Досвідчені працівники</li>
@@ -38,8 +46,8 @@
             </p>
             <img src="./imagens/Пекар.png" alt="Пекар з тістом">
         </section>
-        <section> 
-            <h2>Наші найкращі шеф - кухарі</h2>
+        <section id="chefs-section"> 
+            <h2>Наші найкращі <span class="accent">шеф - кухарі</span></h2>
             <ul>
                 <li>
                     <article>
@@ -59,7 +67,7 @@
                 </li>
             </ul>
         </section>
-        <section> 
+        <section id ="formats-section"> 
             <h2>Формати</h2>
             <ul>
                 <li>
@@ -71,18 +79,32 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Приедна </h2> 
+        <section id="contact-section">
+            <h2>Приєднайся до мережі</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11953.245058115932!2d-6.304103136062607!3d41.497529111574174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd39666410gffa7f%3A0%xdn5b4c6c8e4f6f7e6!2sJuncal%2C%20%C3%81vila%2C%20Іспанія!5e0!3m2!1suk!2sua!4v1701301234567!5m2!1suk!2sua" 
+            width="500" 
+            height="350" style="border:0;" 
+            allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+            <nav>   
+                <a href="#"><img src="./imagens/logo.svg" alt="Логотип пекарні"></a>
+                <ul>
+                    <li><a href="#">Франшиза</a></li>
+                    <li><a href="#">Наші традиції</a></li>
+                    <li><a href="#">Формати</a></li>
+                    <li><a href="#">Контакти</a></li>
+                </ul>
+            </nav>  
         </section>
     </main>
-            
     <footer>
         <nav>
-            <a href="#">
+            <a href="#">    
                 <img src="https://picsum.photos/seed/picsum/200/300" alt="Логотип пекарні"></a>
             <ul>
-                <li><a href="#">Франшиза</a></li>
                 <li><a href="#">Наші традиції</a></li>
+                <li><a href="#">Шеф-кухар</a></li>
                 <li><a href="#">Формати</a></li>
                 <li><a href="#">Контакти</a></li>
             </ul>
@@ -95,8 +117,9 @@
                 <li><a href="https://www.facebook.com/">Facebook</a></li>
                 <li><a href="https://www.instagram.com/ovegetarianos/">Instagram</a></li>
             </ul>
+        </nav>
             <a href="#" target="_blank">Политика конфиденциальности</a>
-            <p>© 2025 Всі права захищені</p>
+            <p>&copy; 2025 Всі права захищені</p>
     </footer>
     </body> 
 </html>
